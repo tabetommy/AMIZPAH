@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { navItems, siteConfig } from "@/config/navigation";
 import { Button } from "@/components/ui/Button";
+import Image from 'next/image'
 
 export function Header() {
   const pathname = usePathname();
@@ -20,19 +21,25 @@ export function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <Link
           href="/"
-          className="text-lg font-bold tracking-tight text-teal-800 sm:text-xl"
+          className="flex items-center gap-2" // flex keeps logo and text (if any) aligned
         >
-          {siteConfig.name}
+          <Image
+            src="/logo.png"
+            alt={`${siteConfig.name} logo`}
+            width={100}  // Adjust this to fit your header height
+            height={40}  // Adjust this to fit your header height
+            priority     // Loads the logo instantly (good for LCP/performance)
+            className="object-contain"
+          /> 
+         
         </Link>
-
         <nav className="hidden items-center gap-8 md:flex">
           {navItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className={`relative text-sm font-medium transition-colors hover:text-teal-800 ${
-                isActive(item.href) ? "text-teal-800" : "text-gray-600"
-              }`}
+              className={`relative text-sm font-medium transition-colors hover:text-teal-800 ${isActive(item.href) ? "text-teal-800" : "text-gray-600"
+                }`}
             >
               {item.label}
               {isActive(item.href) && (
@@ -43,7 +50,7 @@ export function Header() {
         </nav>
 
         <div className="hidden md:block">
-          <Button href={siteConfig.applyHref}>Apply Now</Button>
+          <Button href="/contact">Get in touch</Button>
         </div>
 
         <button
@@ -84,19 +91,18 @@ export function Header() {
                 <Link
                   href={item.href}
                   onClick={() => setMobileOpen(false)}
-                  className={`block rounded-md px-3 py-2 text-sm font-medium ${
-                    isActive(item.href)
+                  className={`block rounded-md px-3 py-2 text-sm font-medium ${isActive(item.href)
                       ? "bg-teal-50 text-teal-800"
                       : "text-gray-600 hover:bg-gray-50"
-                  }`}
+                    }`}
                 >
                   {item.label}
                 </Link>
               </li>
             ))}
             <li className="pt-2">
-              <Button href={siteConfig.applyHref} className="w-full">
-                Apply Now
+              <Button href="/contact" className="w-full">
+                Get in touch
               </Button>
             </li>
           </ul>

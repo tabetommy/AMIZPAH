@@ -51,7 +51,7 @@ export const faqs = [
       icon: "call",
       title: "Call Us",
       value: "+1 (800) 555-0123",
-      subtext: "Mon–Fri: 9:00 AM – 6:00 PM",
+      subtext: "Mon–Fri: 07:30 AM – 16:30 PM",
     },
     {
       icon: "location_on",
