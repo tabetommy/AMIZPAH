@@ -191,7 +191,7 @@ export default function FAQSection() {
             <div className="text-center py-12 bg-white rounded-xl border border-slate-200">
               <p className="text-slate-500 text-sm font-medium">No questions match your search criteria.</p>
               <button 
-                onClick={() => { setSearchQuery(''); setActiveCategory('all'); }} 
+                onClick={() => { setActiveCategory('all'); }} 
                 className="mt-3 text-xs text-teal-800 font-bold hover:underline"
               >
                 Reset Filters
