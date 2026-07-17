@@ -65,9 +65,9 @@ export default function ContactForm() {
                     </label>
                     <input
                         name="email" 
-          type="email" 
-          value={formData.email} 
-          onChange={handleChange}
+                        type="email" 
+                        value={formData.email} 
+                        onChange={handleChange}
                         required
                         className="h-11 w-full rounded-lg border border-slate-300 px-4 outline-none transition focus:border-teal-800 focus:ring-2 focus:ring-teal-800/20"
                     />
