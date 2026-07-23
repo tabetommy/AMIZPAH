@@ -60,7 +60,7 @@ export default function Steps() {
   return (
     <>
          {/* steps to apply */}
-        <section className="bg-slate-50 py-16 lg:py-24">
+        <section className="bg-slate-50 py-16 lg:py-24 bg-white">
               <div className="mx-auto max-w-4xl px-6">
 
                   {/* Header */}

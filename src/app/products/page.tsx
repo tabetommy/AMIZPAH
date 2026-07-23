@@ -284,7 +284,7 @@ export default function ServicesPage() {
      
 
     {/* Customer Testimonial Section */}
-         <section className="overflow-hidden bg-surface-container-low px-margin-desktop py-stack-xl">
+         {/* <section className="overflow-hidden bg-surface-container-low px-margin-desktop py-stack-xl">
            <div className="mx-auto flex max-w-container-max flex-col items-center gap-stack-xl md:flex-row">
              <div className="relative w-full md:w-1/2">
                <div className="relative aspect-square overflow-hidden rounded-full border-[12px] border-white shadow-lg">
@@ -329,7 +329,7 @@ export default function ServicesPage() {
                </div>
              </div>
            </div>
-         </section>
+         </section> */}
         <Steps/>
         <FAQSection/>
          

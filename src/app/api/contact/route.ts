@@ -42,8 +42,8 @@ export async function POST(request: Request) {
 
         // 2. Format the email content
         const mailOptions = {
-            from: process.env.GMAIL_USER,
-            to: process.env.CONTACT_EMAIL,
+            from: "Damizpah Microcredit <" + process.env.GMAIL_USER + ">",
+            to: process.env.GMAIL_USER,
             replyTo: email,
             subject: `New Inquiry: ${subject}`,
             html: `

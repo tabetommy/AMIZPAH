@@ -1,8 +1,6 @@
 import CTASection from "@/components/CTA/page";
 import Link from "next/link";
 
-const HERO_IMAGE_URL =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuC47_vKYg3RH6SUqrj8U7BzUz-DEipKCKG4qnS-oje3OBOlP9Nggdmkkg8RuniQRpMpyshv7Ut_ey5CCBJlYM-nLBOXp08R-h2ZOGhb6TBgESSK5tk2g1wlJNrLZ7S9UK1mBrzrCWw02h_ML-0_uF6nGsxsqbs5KRoFLmWJyJUz2Eq2rcP5t0kAkqlVCJqGHkjtl9VWEnUxyD0ZrEeeekySGfdjcjEef-IWnJpED1pimANNeFMWO5Mf";
 
 
 
@@ -18,9 +16,15 @@ export function Home() {
               className="w-full h-full bg-cover bg-center"
               style={{
                 backgroundImage:
-                  "url('/home-hero.png')",
+                  "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCWxvL3I7-F3LgaeOKlJw6aAuL0mRItA1v-gaiuznglBItP2dDEfAXE7038gkAAiN1jOHRasYQSiILJyayfKvHYhpICXx1riHQljGNnhmTDdQvGw3vYq_XoXPhODQOYED4W9pzYMmeSX7SAH_kWtgOadvSIpzoi_8lV9sdovBganm-b3hA_9VjXl-mplYYqHcZ9-ejXl18bvajzoj-XugFr0xlnXNEWGxjgI3FhUBMUj-b4TPIYdvTM')",
               }}
             />
+
+            {/* Dark Overlay */}
+            <div className="absolute inset-0 bg-black/40"></div>
+
+            {/* Gradient Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent"></div>
           </div>
 
           {/* Content */}

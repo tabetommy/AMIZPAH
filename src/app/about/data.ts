@@ -1,24 +1,16 @@
 export const stats = [
     {
       icon: "diversity_3",
-      value: "150K+",
+      value: "200+",
       label: "Lives Changed",
     },
-    {
-      icon: "payments",
-      value: "$85M",
-      label: "Loans Granted",
-    },
+   
     {
       icon: "public",
-      value: "12",
-      label: "Countries Reached",
+      value: "25 of 32",
+      label: "Communities reached within Obuasi Municipality",
     },
-    {
-      icon: "verified_user",
-      value: "99%",
-      label: "Repayment Rate",
-    },
+   
   ];
 
   export const teamMembers = [
@@ -41,7 +33,7 @@ export const stats = [
       
     },
     {
-      name: "Hannah Addai",
+      name: "Mrs. Hannah Addai",
       role: "Cashier",
       image: "/Hannah.jpeg",
       
