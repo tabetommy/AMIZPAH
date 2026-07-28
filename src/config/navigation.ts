@@ -11,8 +11,7 @@ export const navItems: NavItem[] = [
 ];
 
 export const siteConfig = {
-  name: "DAMIZPAH",
+  name: "Damizpah Micro Credit",
   description:
-    "Tailored microfinance solutions designed to bridge the gap for entrepreneurs and visionaries across developing markets.",
-  applyHref: "/apply",
+    "Damizpah Micro Credit provides affordable microcredit and financial solutions in Ghana.",
 };

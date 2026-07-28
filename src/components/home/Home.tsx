@@ -29,12 +29,24 @@ export function Home() {
 
           {/* Content */}
           <div className="relative z-10 w-full max-w-4xl px-6 mx-auto sm:px-8 lg:px-16">
-            <h1 className="mb-6 text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
+            {/* <h1 className="mb-6 text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
               Empowering Ambition through Financial Inclusion
             </h1>
             <p className="text-body-lg font-body-lg mb-stack-lg text-surface-container-highest opacity-90">
               Tailored microfinance solutions designed to bridge the gap for
               entrepreneurs and visionaries across developing markets.
+            </p> */}
+            <h1 className="mb-6 text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
+              Damizpah Micro Credit
+            </h1>
+
+            <p className="mb-4 text-2xl font-semibold text-white">
+              Empowering Ambition through Financial Inclusion
+            </p>
+
+            <p className="text-body-lg font-body-lg mb-stack-lg text-surface-container-highest opacity-90">
+              Tailored microfinance solutions designed to bridge the gap for entrepreneurs
+              and visionaries across Ghana.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row ">
               <Link
