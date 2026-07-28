@@ -118,9 +118,12 @@ export default function AboutPage() {
                   </p>
                    <a
                     href={`mailto:${member.email}`}
-                    className="mt-3 block text-sm text-gray-600 hover:text-primary break-words"
+                    aria-label={`Email ${member.name}`}
+                    className="mt-4 inline-flex items-center justify-center rounded-full bg-gray-100 p-2 text-gray-600 transition hover:bg-primary hover:text-white"
                   >
-                    {member.email}
+                    <span className="material-symbols-outlined text-xl">
+                      mail
+                    </span>
                   </a>
                 </div>
               </div>
