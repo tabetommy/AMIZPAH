@@ -116,6 +116,12 @@ export default function AboutPage() {
                   <p className="mt-1 text-sm font-semibold uppercase tracking-widest text-primary">
                     {member.role}
                   </p>
+                   <a
+                    href={`mailto:${member.email}`}
+                    className="mt-3 block text-sm text-gray-600 hover:text-primary break-words"
+                  >
+                    {member.email}
+                  </a>
                 </div>
               </div>
             ))}

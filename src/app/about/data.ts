@@ -18,24 +18,28 @@ export const stats = [
       name: "Mr Francis Walters Aggrey",
       role: "Chief Executive Officer",
       image: "/Francis.jpeg",
+      email:"francis.aggrey@damizpah-microcredit.waltersgroups.org"
      
     },
     {
       name: "Mr. Fredrick Adom Yeboah",
       role: "Manager",
       image:"/Federick.jpeg",
+      email:"francis.aggrey@damizpah-microcredit.waltersgroups.org"
       
     },
     {
       name: "Mr. Emmanuel Sarpong",
       role: "Assistant manager",
       image:"/Emmanuel.jpeg",
+      email:"francis.aggrey@damizpah-microcredit.waltersgroups.org"
       
     },
     {
       name: "Mrs. Hannah Addai",
       role: "Cashier",
       image: "/Hannah.jpeg",
+      email:"francis.aggrey@damizpah-microcredit.waltersgroups.org"
       
     },
   ];
