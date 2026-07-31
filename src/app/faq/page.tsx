@@ -1,6 +1,7 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import CTASection from "@/components/CTA/page";
 
 export default function FAQSection() {
   
@@ -201,6 +202,7 @@ export default function FAQSection() {
         </div>
 
       </div>
+      <CTASection headerText="Get in touch "/>
     </section>
   )
 }
