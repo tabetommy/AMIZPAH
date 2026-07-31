@@ -116,7 +116,7 @@ export default function AboutPage() {
                   <p className="mt-1 text-sm font-semibold uppercase tracking-widest text-primary">
                     {member.role}
                   </p>
-                   <a
+                   {index!=3 && <a
                     href={`mailto:${member.email}`}
                     aria-label={`Email ${member.name}`}
                     className="mt-4 inline-flex items-center justify-center rounded-full bg-gray-100 p-2 text-gray-600 transition hover:bg-primary hover:text-white"
@@ -124,7 +124,7 @@ export default function AboutPage() {
                     <span className="material-symbols-outlined text-xl">
                       mail
                     </span>
-                  </a>
+                  </a>}
                 </div>
               </div>
             ))}
