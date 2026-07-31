@@ -120,10 +120,10 @@ export function Footer() {
               </span>
 
               <a
-                href="mailto:damizpahmicrocredit.gh@gmail.com"
+                href="mailto:info@damizpah-microcredit.waltersgroups.org"
                 className="text-body-sm font-body-sm text-on-surface-variant transition-colors hover:text-on-surface"
               >
-                damizpahmicrocredit.gh@gmail.com
+                info@damizpah-microcredit.waltersgroups.org 
               </a>
             </div>
 

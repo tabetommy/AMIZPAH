@@ -1,6 +1,5 @@
-import Image from "next/image";
 import Steps from "./steps";
-import FAQSection from "./faq";
+
 
 export const metadata = {
   title: "Services",
@@ -281,57 +280,8 @@ export default function ServicesPage() {
 
         </div>
       </section>
-     
-
-    {/* Customer Testimonial Section */}
-         {/* <section className="overflow-hidden bg-surface-container-low px-margin-desktop py-stack-xl">
-           <div className="mx-auto flex max-w-container-max flex-col items-center gap-stack-xl md:flex-row">
-             <div className="relative w-full md:w-1/2">
-               <div className="relative aspect-square overflow-hidden rounded-full border-[12px] border-white shadow-lg">
-                 <Image
-                   src={TESTIMONIAL_IMAGE_URL}
-                   alt="A portrait of a confident female entrepreneur in her thriving organic farm"
-                   fill
-                   className="object-cover"
-                   sizes="(max-width: 768px) 100vw, 50vw"
-                 />
-               </div>
-               <div className="absolute -bottom-4 -right-4 rounded-lg bg-secondary-container p-stack-md shadow-xl">
-                 <span
-                   className="material-symbols-outlined text-4xl text-on-secondary-container"
-                   style={{ fontVariationSettings: "'FILL' 1" }}
-                 >
-                   format_quote
-                 </span>
-               </div>
-             </div>
-             <div className="w-full md:w-1/2">
-               <span className="text-label-md font-label-md mb-stack-sm block uppercase tracking-widest text-primary">
-                 Success Story
-               </span>
-               <h2 className="text-display-lg font-display-lg mb-stack-md text-on-background">
-                 &ldquo;MicroTrust didn&apos;t just give me a loan; they gave me a
-                 partner in my dream.&rdquo;
-               </h2>
-               <p className="text-body-lg font-body-lg mb-stack-lg italic leading-relaxed text-on-surface-variant">
-                 &ldquo;Starting an agricultural co-operative seemed impossible
-                 without traditional collateral. MicroTrust looked at my business
-                 plan, not just my bank account. Within 48 hours, I had the seed
-                 capital I needed.&rdquo;
-               </p>
-               <div>
-                 <div className="text-headline-md font-headline-md text-on-background">
-                   Maria Elena Sanchez
-                 </div>
-                 <div className="text-body-sm font-body-sm text-on-surface-variant">
-                   Founder, Green Roots Co-operative
-                 </div>
-               </div>
-             </div>
-           </div>
-         </section> */}
-        <Steps/>
-        <FAQSection/>
+      <Steps/>
+        
          
     </>
   );

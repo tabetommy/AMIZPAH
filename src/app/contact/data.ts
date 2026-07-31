@@ -45,7 +45,7 @@ export const faqs = [
     {
       icon: "mail",
       title: "Email Us",
-      value: "support@microtrustpro.com",
+      value: "info@damizpah-microcredit.waltersgroups.org",
     },
     {
       icon: "call",

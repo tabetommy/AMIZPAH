@@ -83,10 +83,10 @@ export default function ContactPage() {
                     Email Address
                   </p>
                   <a 
-                    href="mailto:damizpahmicrocredit.gh@gmail.com"
+                    href="mailto:info@damizpah-microcredit.waltersgroups.org"
                    className="mt-1 block break-all sm:break-normal font-medium text-slate-900 hover:text-teal-800 hover:underline transition"
                   >
-                    damizpahmicrocredit.gh@gmail.com
+                    info@damizpah-microcredit.waltersgroups.org
                   </a>
                   <p className="mt-1 text-sm text-slate-500">We reply within 1 business day</p>
                 </div>
